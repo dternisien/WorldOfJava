@@ -15,3 +15,17 @@ Le jeu a été réalisé en Java en utilisant des classes et des méthodes pour 
 Le jeu peut être joué en modifiant la classe "Main".
 
 Pour exécuter le jeu, vous devez exécuter la classe principale "Main" qui se trouve dans le dossier "src".
+
+#Changer le nombre de Personnages par équipes
+
+Vous pouvez changer le nombres de Personnages par équipes en vous rendant dans la class "Main" puis changer initialiserMonde(nbrDePersonnagesParEquipe) en remplaçant entre les parenthèses par le nombre de Personnages dans chaque équipe que vous voulez.
+
+#Ajout d'object lors de la création du monde 
+
+Vous pouvez modifier le nombre d'arme , de nourriture , et de bouclier qui vont être créer lors de la création du monde. 
+Pour cela : 
+            -Rendez vous dans la class "Monde"
+            -Aller dans la Fonction initialisation du monde 
+            -Modifiez les paramètre de fonction creationArmes(nbrArmes),creationBouclier(nbrBouclier),creationNourriture(nbrNourriture)
+            
+        
