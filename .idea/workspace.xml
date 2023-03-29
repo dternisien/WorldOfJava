@@ -5,36 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce83378b-d6f9-4e54-81e2-2ab2a2bbba96" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Monde.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/action/Combattre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/ArmesFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/BouclierFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/EquipeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/HeroFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/MonstreFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/NouritureFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/objets/Aliments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/objets/Armes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/objets/Bouclier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/objets/Epee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/objets/Gourdin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/objets/Items.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/objets/Sacoche.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personnage/Equipe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personnage/Heros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personnage/Monstre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personnage/Personnage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -53,7 +34,10 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/World-Of-Java/WorldOfJava&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/World-Of-Java/WorldOfJava&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
   <component name="RunManager">

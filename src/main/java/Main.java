@@ -4,6 +4,5 @@ public class Main {
         Monde monde = new Monde();
         // initialisation du monde avec 2 personages pars Equipe
         monde.initialiserMonde(2);
-
     }
 }
