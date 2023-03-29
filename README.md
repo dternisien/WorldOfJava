@@ -12,6 +12,6 @@ Le but du jeu est de vaincre l'équipe adverse en éliminant tous ses membres.
 Le jeu se termine lorsque l'une des équipes n'a plus aucun membre vivant.
 
 Le jeu a été réalisé en Java en utilisant des classes et des méthodes pour gérer les différents éléments du jeu, tels que les personnages, les armes, les sacoches et les combats. 
-Le jeu est interactif et peut être joué en ligne de commande.
+Le jeu peut être joué en modifiant la classe "Main".
 
 Pour exécuter le jeu, vous devez exécuter la classe principale "Main" qui se trouve dans le dossier "src".
