@@ -3,6 +3,7 @@ package action;
 import personnage.Equipe;
 import personnage.Personnage;
 
+import java.util.List;
 import java.util.Random;
 
 public class Combattre {

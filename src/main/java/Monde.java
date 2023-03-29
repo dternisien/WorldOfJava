@@ -6,6 +6,8 @@ import factory.NouritureFactory;
 import objets.*;
 import personnage.Equipe;
 import personnage.Personnage;
+
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
@@ -243,6 +245,7 @@ public class Monde {
 
         this.listNouriture = creationItems.getListNouriture();
         System.out.println(this.listNouriture);
+        System.out.println();
     }
 
     /**
