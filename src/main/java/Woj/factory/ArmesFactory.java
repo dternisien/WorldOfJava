@@ -1,7 +1,7 @@
-package factory;
+package Woj.factory;
 
-import objets.Epee;
-import objets.Gourdin;
+import Woj.objets.Epee;
+import Woj.objets.Gourdin;
 
 import java.util.ArrayList;
 import java.util.List;

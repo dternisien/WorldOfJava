@@ -1,6 +1,10 @@
-package personnage;
+package Woj.personnage;
 
-import objets.*;
+import Woj.Couleur;
+import Woj.objets.Aliments;
+import Woj.objets.Armes;
+import Woj.objets.Bouclier;
+import Woj.objets.Sacoche;
 
 public abstract class Personnage {
     private int point_de_vie ;
@@ -73,8 +77,8 @@ public abstract class Personnage {
     public void manger(){
         Aliments aliment = getSacoche().recupererAliment();
         this.endurance += aliment.getPointDeRegeneration();
-        System.out.println(this.nom+" mange et récupère "+aliment.getPointDeRegeneration()+" d'endurance ");
-        System.out.println("Nouvelle endurance "+ this.endurance);
+        System.out.println(Couleur.ANSI_BLUE+this.nom+" mange et récupère "+aliment.getPointDeRegeneration()+" d'endurance ");
+        System.out.println("Nouvelle endurance "+ this.endurance+Couleur.ANSI_RESET);
     }
 
     /**

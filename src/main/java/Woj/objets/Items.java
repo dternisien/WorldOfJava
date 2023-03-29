@@ -1,4 +1,4 @@
-package objets;
+package Woj.objets;
 
 public interface Items {
 

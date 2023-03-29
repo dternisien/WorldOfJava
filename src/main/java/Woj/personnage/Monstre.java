@@ -1,9 +1,8 @@
-package personnage;
+package Woj.personnage;
 
-import objets.Armes;
-import objets.Bouclier;
-import objets.Sacoche;
-import personnage.Personnage;
+import Woj.objets.Armes;
+import Woj.objets.Bouclier;
+import Woj.objets.Sacoche;
 
 import java.util.Random;
 

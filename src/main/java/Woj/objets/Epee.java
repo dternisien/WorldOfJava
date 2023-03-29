@@ -1,4 +1,4 @@
-package objets;
+package Woj.objets;
 
 public class Epee extends Armes {
     private String nom ;

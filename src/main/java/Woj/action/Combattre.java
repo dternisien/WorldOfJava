@@ -1,9 +1,9 @@
-package action;
+package Woj.action;
 
-import personnage.Equipe;
-import personnage.Personnage;
+import Woj.Couleur;
+import Woj.personnage.Equipe;
+import Woj.personnage.Personnage;
 
-import java.util.List;
 import java.util.Random;
 
 public class Combattre {
@@ -18,7 +18,7 @@ public class Combattre {
 
         while (checkPersonnageEnVie(hero, monstre)){
             rounds++;
-            System.out.println();
+            System.out.println(Couleur.ANSI_WHITE);
             System.out.println("Round :"+rounds);
             if (choixAttaquant()){
                 if (decisionPersonnage(hero) == 1){
@@ -45,7 +45,7 @@ public class Combattre {
     public int decisionPersonnage(Personnage personnage){
         if (personnage.getEndurance() < 10){
             if (!personnage.getSacoche().getListNouriture().isEmpty()){
-                System.out.println(personnage.getNom()+" n'a plus d'endurances");
+                System.out.println(Couleur.ANSI_BLUE+personnage.getNom()+" n'a plus d'endurances"+Couleur.ANSI_RESET);
                 personnage.manger();
                 return 0;
             }
@@ -68,6 +68,7 @@ public class Combattre {
             numCombat++;
             System.out.println();
             System.out.print("Combat: "+numCombat);
+            System.out.println();
             combats(hero, monstre);
         }
     }
@@ -84,10 +85,12 @@ public class Combattre {
         if (hero.getNbrMembreVivant() > 0 && monstre.getNbrMembreVivant() > 0){
             return true;
         }else if (hero.getNbrMembreVivant() == 0 ){
-            System.out.println("L'equipe des Monstre gagne avec : "+monstre.getNbrMembreVivant()+ " Personnages vivant");
+            System.out.println(Couleur.ANSI_YELLOW);
+            System.out.println("L'equipe des Monstre gagne avec : "+monstre.getNbrMembreVivant()+ " Personnages vivant"+ Couleur.ANSI_RESET);
             return false;
         }else if (monstre.getNbrMembreVivant() == 0){
-            System.out.println("L'équipe des Héro gagne avec : "+hero.getNbrMembreVivant()+" Personnages Vivant");
+            System.out.println(Couleur.ANSI_YELLOW);
+            System.out.println("L'équipe des Héro gagne avec : "+hero.getNbrMembreVivant()+" Personnages Vivant"+ Couleur.ANSI_RESET);
             return false;
         }
         return false;
@@ -101,13 +104,13 @@ public class Combattre {
     public void attaquer(Personnage attaquant, Personnage defenseur){
             if (defenseur.checkBouclier()){
                 attaquant.attaquer(defenseur);
-                System.out.println(defenseur.getNom()+" Se defend !");
-                System.out.println("Attaquant: "+attaquant.getNom()+" PV : "+attaquant.getPoint_de_vie()+" Endurance : "+ attaquant.getEndurance()+" Degats: "+attaquant.getArme().getPoint_de_degats());
-                System.out.println("Defenseur: "+defenseur.getNom()+" PV : "+defenseur.getPoint_de_vie()+" Endurance : "+defenseur.getEndurance()+" Degats: "+defenseur.getArme().getPoint_de_degats()+" Bouclier: "+defenseur.getBouclier().getNom());
+                System.out.println(Couleur.ANSI_BLUE+defenseur.getNom()+" Se defend !"+Couleur.ANSI_RESET);
+                System.out.println(Couleur.ANSI_RED+"Attaquant: "+attaquant.getNom()+" PV : "+attaquant.getPoint_de_vie()+" Endurance : "+ attaquant.getEndurance()+" Degats: "+attaquant.getArme().getPoint_de_degats()+Couleur.ANSI_RESET);
+                System.out.println(Couleur.ANSI_BLUE+"Defenseur: "+defenseur.getNom()+" PV : "+defenseur.getPoint_de_vie()+" Endurance : "+defenseur.getEndurance()+" Degats: "+defenseur.getArme().getPoint_de_degats()+" Bouclier: "+defenseur.getBouclier().getNom()+Couleur.ANSI_RESET);
             }else {
                 attaquant.attaquer(defenseur);
-                System.out.println("Attaquant: "+attaquant.getNom()+" PV : "+attaquant.getPoint_de_vie()+" Endurance : "+ attaquant.getEndurance()+" Degats: "+attaquant.getArme().getPoint_de_degats());
-                System.out.println("Defenseur: "+defenseur.getNom()+" PV : "+defenseur.getPoint_de_vie()+" Endurance : "+defenseur.getEndurance()+" Degats: "+defenseur.getArme().getPoint_de_degats());
+                System.out.println(Couleur.ANSI_RED+"Attaquant: "+attaquant.getNom()+" PV : "+attaquant.getPoint_de_vie()+" Endurance : "+ attaquant.getEndurance()+" Degats: "+attaquant.getArme().getPoint_de_degats()+Couleur.ANSI_RESET);
+                System.out.println(Couleur.ANSI_BLUE+"Defenseur: "+defenseur.getNom()+" PV : "+defenseur.getPoint_de_vie()+" Endurance : "+defenseur.getEndurance()+" Degats: "+defenseur.getArme().getPoint_de_degats()+Couleur.ANSI_RESET);
             }
     }
 
@@ -121,12 +124,12 @@ public class Combattre {
         System.out.println("Fin du combats ");
         if (hero.getPoint_de_vie() <=0 ){
             System.out.println();
-            System.out.println("Le Héro "+hero.getNom()+ " est mort ");
-            System.out.println("Le Monstre "+monstre.getNom()+" Gagne !");
+            System.out.println(Couleur.ANSI_RED+"Le Héro "+hero.getNom()+ " est mort "+Couleur.ANSI_RESET);
+            System.out.println(Couleur.ANSI_BLUE+"Le Monstre "+monstre.getNom()+" Gagne !"+Couleur.ANSI_RESET);
         }else {
             System.out.println();
-            System.out.println("Le Monstre "+monstre.getNom()+" est mort ");
-            System.out.println("Le Héro "+hero.getNom() + " Gagne !");
+            System.out.println(Couleur.ANSI_RED+"Le Monstre "+monstre.getNom()+" est mort "+Couleur.ANSI_RESET);
+            System.out.println(Couleur.ANSI_BLUE+"Le Héro "+hero.getNom() + " Gagne !"+Couleur.ANSI_RESET);
         }
     }
 

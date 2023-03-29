@@ -1,7 +1,6 @@
-package factory;
+package Woj.factory;
 
-import objets.Bouclier;
-import objets.Epee;
+import Woj.objets.Bouclier;
 
 import java.util.ArrayList;
 import java.util.List;

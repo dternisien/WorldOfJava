@@ -1,6 +1,4 @@
-package objets;
-
-import objets.Items;
+package Woj.objets;
 
 public class Aliments implements Items {
     private String nom;

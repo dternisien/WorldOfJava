@@ -1,6 +1,4 @@
-package objets;
-
-import objets.Armes;
+package Woj.objets;
 
 public class Gourdin extends Armes {
 

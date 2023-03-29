@@ -1,4 +1,4 @@
-package objets;
+package Woj.objets;
 
 public class Armes implements Items{
     private String nom;
