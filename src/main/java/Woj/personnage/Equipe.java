@@ -1,4 +1,4 @@
-package personnage;
+package Woj.personnage;
 
 import java.util.ArrayList;
 import java.util.List;

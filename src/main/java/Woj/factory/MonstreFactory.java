@@ -1,7 +1,6 @@
-package factory;
+package Woj.factory;
 
-import objets.Armes;
-import personnage.Monstre;
+import Woj.personnage.Monstre;
 
 public class MonstreFactory {
 

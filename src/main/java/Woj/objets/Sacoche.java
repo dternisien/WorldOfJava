@@ -1,4 +1,4 @@
-package objets;
+package Woj.objets;
 
 import java.util.ArrayList;
 import java.util.List;

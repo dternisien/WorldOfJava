@@ -5,12 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce83378b-d6f9-4e54-81e2-2ab2a2bbba96" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Woj/Couleur.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Woj/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Monde.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Woj/Monde.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/action/Combattre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Woj/action/Combattre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factory/ArmesFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Woj/factory/ArmesFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factory/BouclierFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Woj/factory/BouclierFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factory/EquipeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Woj/factory/EquipeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factory/HeroFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Woj/factory/HeroFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factory/MonstreFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Woj/factory/MonstreFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factory/NouritureFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Woj/factory/NouritureFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/objets/Aliments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Woj/objets/Aliments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/objets/Armes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Woj/objets/Armes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/objets/Bouclier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Woj/objets/Bouclier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/objets/Epee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Woj/objets/Epee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/objets/Gourdin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Woj/objets/Gourdin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/objets/Items.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Woj/objets/Items.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/objets/Sacoche.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Woj/objets/Sacoche.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personnage/Equipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Woj/personnage/Equipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personnage/Heros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Woj/personnage/Heros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personnage/Monstre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Woj/personnage/Monstre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personnage/Personnage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Woj/personnage/Personnage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -40,7 +76,7 @@
 }</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="Woj.Main" />
       <module name="WorldOfJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -48,6 +84,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>

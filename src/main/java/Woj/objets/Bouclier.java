@@ -1,4 +1,4 @@
-package objets;
+package Woj.objets;
 
 public class Bouclier implements Items{
 

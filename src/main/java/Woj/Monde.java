@@ -1,11 +1,17 @@
-import action.Combattre;
-import factory.ArmesFactory;
-import factory.BouclierFactory;
-import factory.EquipeFactory;
-import factory.NouritureFactory;
-import objets.*;
-import personnage.Equipe;
-import personnage.Personnage;
+package Woj;
+
+import Woj.objets.Aliments;
+import Woj.objets.Bouclier;
+import Woj.objets.Epee;
+import Woj.objets.Gourdin;
+import Woj.action.Combattre;
+import Woj.factory.ArmesFactory;
+import Woj.factory.BouclierFactory;
+import Woj.factory.EquipeFactory;
+import Woj.factory.NouritureFactory;
+import Woj.personnage.Equipe;
+import Woj.personnage.Personnage;
+
 import java.util.List;
 import java.util.Random;
 
@@ -24,7 +30,7 @@ public class Monde {
         creationEquipeMonstres(nbrPersonnageEquipe);
         //creation d'une equipe de Héros en fonction de nbrPersonnageEquipe
         creationEquipeHeros(nbrPersonnageEquipe);
-        System.out.println("-----------Creation des Monstres-----------");
+        System.out.println(Couleur.ANSI_CYAN+"-----------Creation des Monstres-----------");
         afficherEquipeMonstres(this.equipeMonstres);
         System.out.println("------------Creation des Héros----------");
         afficherEquipeHeros(this.equipeHeros);
@@ -35,7 +41,7 @@ public class Monde {
         creationBouclier(20);
         System.out.println("-------Creation de la nourriture-------");
         creationNourriture(20);
-        System.out.println("-------Les Héros s'équipes------");
+        System.out.println(Couleur.ANSI_PURPLE+"-------Les Héros s'équipes------");
         equiperHeros(this.equipeHeros,this.listEpee,this.listBoucliers);
         rangerItemsHeros(this.equipeHeros,this.listNouriture,this.listEpee,this.listBoucliers,5);
         afficherArmesHeros(this.equipeHeros);
@@ -218,7 +224,7 @@ public class Monde {
             System.out.print("Bouclier : "+this.equipeMonstres.getMonstres(i).getBouclier()+" , ");
             System.out.println("Sacoche : "+this.equipeMonstres.getMonstres(i).getSacoche());
         }
-        System.out.println();
+        System.out.println(Couleur.ANSI_RESET);
     }
 
     /**
@@ -243,6 +249,7 @@ public class Monde {
 
         this.listNouriture = creationItems.getListNouriture();
         System.out.println(this.listNouriture);
+        System.out.println(Couleur.ANSI_RESET);
     }
 
     /**

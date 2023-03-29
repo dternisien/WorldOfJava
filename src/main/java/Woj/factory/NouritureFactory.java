@@ -1,7 +1,6 @@
-package factory;
+package Woj.factory;
 
-import objets.Aliments;
-import objets.Items;
+import Woj.objets.Aliments;
 
 import java.util.ArrayList;
 import java.util.List;

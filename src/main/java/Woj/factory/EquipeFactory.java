@@ -1,17 +1,12 @@
-package factory;
+package Woj.factory;
 
-import objets.Bouclier;
-import objets.Epee;
-import objets.Gourdin;
-import objets.Sacoche;
-import personnage.Equipe;
-import personnage.Heros;
-import personnage.Monstre;
-import personnage.Personnage;
+import Woj.personnage.Equipe;
+import Woj.personnage.Heros;
+import Woj.personnage.Monstre;
+import Woj.personnage.Personnage;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 public class EquipeFactory {
 

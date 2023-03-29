@@ -1,3 +1,7 @@
+package Woj;
+
+import Woj.Monde;
+
 public class Main {
     public static void main(String[] args) {
         // Creation du monde

@@ -1,11 +1,5 @@
-package factory;
-import objets.Armes;
-import objets.Bouclier;
-import objets.Epee;
-import personnage.Heros;
-import personnage.Monstre;
-
-import java.util.Random;
+package Woj.factory;
+import Woj.personnage.Heros;
 
 public class HeroFactory {
 
