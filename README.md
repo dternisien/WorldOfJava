@@ -23,9 +23,13 @@ Vous pouvez changer le nombres de Personnages par équipes en vous rendant dans 
 ## Ajout d'object lors de la création du monde
 
 Vous pouvez modifier le nombre d'arme , de nourriture , et de bouclier qui vont être créer lors de la création du monde. 
-Pour cela : 
-            - Rendez vous dans la class "Monde"
-            * Aller dans la Fonction initialisation du monde 
-            + Modifiez les paramètre de fonction creationArmes(nbrArmes),creationBouclier(nbrBouclier),creationNourriture(nbrNourriture)
+
+* Rendez vous dans la class "Monde"
+* Aller dans la Fonction initialisation du monde 
+* Modifiez les paramètre de fonction creationArmes(nbrArmes),creationBouclier(nbrBouclier),creationNourriture(nbrNourriture)
+
+## Modifer les degats des armes 
+
+Vous pouvez modifier les degats des Armes en vous rendant dans le package Factory et dans Armes factory.
             
         
