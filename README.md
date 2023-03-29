@@ -16,6 +16,14 @@ Le jeu peut être joué en modifiant la classe "Woj.Main".
 
 Pour exécuter le jeu, vous devez exécuter la classe principale "Woj.Main" qui se trouve dans le dossier "src".
 
+## Code couleur 
+* Cyan: Génération du monde 
+* Violet: Les Personnages s'équipes 
+* Gris : Les rounds 
+* Rouge: Les Personnages qui attaques 
+* Bleu: Les Personnages qui défendes 
+* Jaune: L'équipe Gagnante 
+
 ## Changer le nombre de Personnages par équipes
 
 Vous pouvez changer le nombres de Personnages par équipes en vous rendant dans la class "Woj.Main" puis changer initialiserMonde(nbrDePersonnagesParEquipe) en remplaçant entre les parenthèses par le nombre de Personnages dans chaque équipe que vous voulez.
